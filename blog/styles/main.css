@@ -1,17 +1,35 @@
 body {
-    background:#786;
+    background:rgb(203, 179, 247);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.header {background: rgb(138, 236, 168);
+    color: black;
+    padding: 10px;
+}
+
 h1, h2, p, li {
     color: black;
 }
 
-a {
-    color: rgb(182, 182, 216)
-}
-
-p {
-    background: #643;
+h4 {background: rgb(138, 236, 168);
     color: black;
     padding: 10px;
 }
+
+ul {list-style-type: disc;
+}
+
+ol {list-style-type: decimal;
+}
+
+a {
+    color: rgb(0, 0, 0)
+}
+
+img {
+    float: left;
+    max-height: 300px;
+    max-width: 100%;
+}
+

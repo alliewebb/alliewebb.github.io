@@ -1,19 +1,21 @@
 body {
-    background:#786;
+    background:rgb(203, 179, 247);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h1, h2, p, li {
+    background: rgb(138, 236, 168)
     color: black;
 }
 
 a {
-    color: rgb(182, 182, 216)
+    color: rgb(0, 0, 0)
 }
 
 p {
-    background: #643;
+    background: rgb(138, 236, 168);
     color: black;
     padding: 10px;
+    margin-left: 10px;
 }
 
 img {

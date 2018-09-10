@@ -47,9 +47,9 @@ html {
 .nav .container ul li a {
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 1.3rem;
     display: inline-block;
-    padding: 30px
+    margin-left: 3rem
 }
 
 .quote {
@@ -81,20 +81,20 @@ html {
 .question .container {
     background-color: black;
     color: white;
-    margin: 20px;
-    font-size: 25px;
+    margin: 2rem;
+    font-size: 1.5rem;
 }
 
 .answer .container {
     background-color: white;
     color: black;
-    margin: 20px;
-    font-size: 25px;
+    margin: 2rem;
+    font-size: 1.5rem;
 }
 
-.scroll .container{
+.scroll .container {
     display: inline-block;
-    margin: 20px;
+    margin: 2rem;
 }
 
 .previous {
@@ -106,3 +106,28 @@ html {
 }
 
 
+/* Bigger than 750 */
+@media (min-width: 750px) {
+    .nav .container ul li a {
+        margin-left: 6rem;
+        font-size: 2.5rem
+    }
+
+    .question .container {
+        margin: 6rem;
+        font-size: 3rem
+    }
+
+    .answer .container {
+        margin: 6rem;
+        font-size: 3rem
+    }
+
+    .scroll-container {
+        margin: 6rem;
+    }
+
+    .quote-box .container {
+        padding-top: 8rem;
+    }
+}

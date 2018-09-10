@@ -25,6 +25,10 @@ html {
     text-align: right;
 }
 
+.date {
+    text-align: right;
+}
+
 .nav {
     width: 100%;
     background-color: rgb(172, 157, 236, 0.5);

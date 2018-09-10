@@ -47,7 +47,7 @@ html {
 .nav .container ul li a {
     text-decoration: none;
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     display: inline-block;
     padding: 30px
 }
@@ -77,4 +77,32 @@ html {
     text-align: center;
     color: white
 }
+
+.question .container {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.answer .container {
+    background-color: white;
+    color: black;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.scroll .container{
+    display: inline-block;
+    margin: 20px;
+}
+
+.previous {
+    float: left;
+}
+
+.next {
+    float: right;
+}
+
 

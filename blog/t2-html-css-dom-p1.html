@@ -1,36 +1,110 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HTML, CSS and the DOM</title>
+    <title>HTML, CSS and the DOM (P1)</title>
     <meta charset="UTF-8">
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="styles/blog.css">
+</head>
   
-  <body>
-    <div id="header">
-        <h1>HTML, CSS and the DOM</h1>
-        <h2>Sprint 2.2</h2>
-        <h3>6 September 2018</h3>
+<body>
+  <div class="section-hero">
+    <div class="container">
+      <div class="row">
+        <h1 class="hero-heading">HTML, CSS and the DOM (P1)</h1>
+        <h2 class="hero-subheading">Sprint 2.2</h2>
+        <h3 class="date">6 September 2018</h3>
+      </div>
     </div>
-    <div id="content">
-        <h4>My Wishlist</h4>
+  </div>
+  <div class="nav">
+    <div class="container">
+      <ul>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../blog-index.html">Blog</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <ol>
+    <div class="question">
+      <div class="container">
+        <li>
+          <strong>My Wishlist</strong>
+        </li>
+      </div>
+    </div>
+    <div class="answer">
+      <div class="container">
         <ul>
           <li>Picture as the background (which doesn't move when you scroll)</li>
           <li>Either a menu across the top of the page or a dropdown menu</li>
           <li>Angled Text</li>
         </ul>
-        <h4>Questions</h4>
-          <ol>
-            <li><strong>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</strong><br>
-            HTML is the content and structure of the webpage. CSS uses the HTML structure to style the webpage, for example using CSS you can tell it to make all headers have a blue background with white font. The DOM means Document Object Model and determines the relationships between the elements using a structure which looks a lot like a family tree. This allows the document to be manipulated bit by bit.
-            The analogy I would use is that HTML is the press release written by the suits in corporate. The CSS is the design department who make it look pretty. The DOM is the publicist who points out bits on the page she wants changed.</li>
-            <li><strong>What is meant by boxifying design?</strong><br>
-            Each element of the webpage, no matter what shape it looks like, is in face a box shape. Boxifying design is rearranging these boxes by changing their order, changing where they sit on the page, and in relation to each other, to configure the layout of the webpage.</li>
-            <li><strong>What is the box model?</strong><br>
-            As described above, the box model is the fact that every element on the page is a box. Around that box there are more boxes - padding, border and margin. These surrounding boxes can be changed to change the size of the element without changing the size of the content.</li>
-          </ol>
+      </div>
     </div>
-    <!-- this is a comment. -->
-  
+    <div class="question">
+      <div class="container">
+        <li>
+          <strong>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</strong>
+        </li>
+      </div>
+    </div>
+    <div class="answer">
+      <div class="container">
+        <p>HTML is the content and structure of the webpage. CSS uses the HTML structure to style the webpage, for example using CSS you can tell it to make all headers have a blue background with white font. The DOM means Document Object Model and determines the relationships between the elements using a structure which looks a lot like a family tree. This allows the document to be manipulated bit by bit.
+          The analogy I would use is that HTML is the press release written by the suits in corporate. The CSS is the design department who make it look pretty. The DOM is the publicist who points out bits on the page she wants changed.</li>
+        </p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="container">
+        <li>
+          <strong>What is meant by boxifying design?</strong>
+        </li>
+      </div>
+    </div>
+    <div class="answer">
+      <div class="container">
+          <p>
+            Each element of the webpage, no matter what shape it looks like, is in face a box shape. Boxifying design is rearranging these boxes by changing their order, changing where they sit on the page, and in relation to each other, to configure the layout of the webpage.</li>
+          </p>
+        </div>
+      </div>
+      <div class="question">
+        <div class="container">
+          <li>
+            <strong>What is the box model?</strong>
+          </li>
+        </div>
+      </div>
+      <div class="answer">
+        <div class="container">
+          <p>
+            As described above, the box model is the fact that every element on the page is a box. Around that box there are more boxes - padding, border and margin. These surrounding boxes can be changed to change the size of the element without changing the size of the content.</li>
+          </p>
+        </div>
+      </div>
+    </ol>
+    <div class="scroll">
+      <div class="container">
+        <div class="previous">
+          <a class="button" href="c1-reflection-blog.html">Previous</a>
+        </div>
+        <div class="next">
+          <a class="button" href="t2-html-css-dom-p2.html">Next</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <p class="credit">Website created using <a href="https://code.visualstudio.com/">Visual Studio Code </a>and <a href="http://getskeleton.com">Skeleton</a>.</p>
+      </div>
+    </div>
   </body>
 </html>

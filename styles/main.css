@@ -47,9 +47,10 @@ html {
 .nav .container ul li a {
     text-decoration: none;
     color: black;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     display: inline-block;
-    margin-left: 3rem
+    margin-left: 3rem;
+    text-align: center
 }
 
 .quote {
@@ -71,6 +72,7 @@ html {
     width:100%;
     text-align: center;
     background-color: rgb(172, 157, 236, 0.5);
+    font-size: 1.25rem
 }
 
 .quote-box {
@@ -105,6 +107,13 @@ html {
     float: right;
 }
 
+.blog-index .container {
+    background-color: black;
+    margin: 4rem;
+    padding: 2rem;
+    color: white;
+    text-align: center
+}
 
 /* Bigger than 750 */
 @media (min-width: 750px) {

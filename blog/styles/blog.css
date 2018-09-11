@@ -23,6 +23,7 @@ html {
 
 .hero-subheading {
     text-align: right;
+    font-style: italic;
 }
 
 .date {

@@ -80,6 +80,11 @@ html {
     color: white
 }
 
+.blurb {
+    padding-top: 8rem;
+}
+
+
 .question .container {
     background-color: black;
     color: white;
@@ -138,5 +143,10 @@ html {
 
     .quote-box .container {
         padding-top: 8rem;
+    }
+
+    .blurb {
+        font-size: 16rem;
+
     }
 }

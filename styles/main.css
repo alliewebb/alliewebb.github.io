@@ -120,6 +120,14 @@ html {
     text-align: center
 }
 
+.projects-index .container {
+    background-color: black;
+    margin: 4rem;
+    padding: 2rem;
+    color: white;
+    text-align: center
+}
+
 /* Bigger than 750 */
 @media (min-width: 750px) {
     .nav .container ul li a {
